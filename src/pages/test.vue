@@ -2,11 +2,7 @@
   <div>
     <client-only>
       <unicon name="car-wash" fill="limegreen" />
-      <unicon
-        name="layer-group"
-        fill="royalblue"
-        icon-style="monochrome"
-      ></unicon>
+      <unicon name="layer-group" fill="deeppink" icon-style="monochrome" />
     </client-only>
   </div>
 </template>

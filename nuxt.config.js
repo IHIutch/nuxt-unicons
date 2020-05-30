@@ -124,28 +124,28 @@ module.exports = {
     "@nuxtjs/pwa",
     // Doc: https://github.com/nuxt-community/dotenv-module
     "@nuxtjs/dotenv",
-    // [
-    //   "@nuxtjs/firebase",
-    //   {
-    //     config: {
-    //       apiKey: process.env.NUXT_ENV_FIREBASE_API_KEY,
-    //       authDomain: process.env.NUXT_ENV_FIREBASE_AUTH_DOMAIN,
-    //       databaseURL: process.env.NUXT_ENV_FIREBASE_DATABASE_URL,
-    //       projectId: process.env.NUXT_ENV_FIREBASE_PROJECT_ID,
-    //       storageBucket: process.env.NUXT_ENV_FIREBASE_STORAGE_BUCKET,
-    //       messagingSenderId: process.env.NUXT_ENV_FIREBASE_MESSAGING_SENDER_ID,
-    //       appId: process.env.NUXT_ENV_FIREBASE_APP_ID
-    //     },
-    //     onFirebaseHosting: true,
-    //     services: {
-    //       auth: true,
-    //       firestore: true,
-    //       functions: true,
-    //       storage: true,
-    //       realtimeDb: true
-    //     }
-    //   }
-    // ],
+    [
+      "@nuxtjs/firebase",
+      {
+        config: {
+          apiKey: process.env.NUXT_ENV_FIREBASE_API_KEY,
+          authDomain: process.env.NUXT_ENV_FIREBASE_AUTH_DOMAIN,
+          databaseURL: process.env.NUXT_ENV_FIREBASE_DATABASE_URL,
+          projectId: process.env.NUXT_ENV_FIREBASE_PROJECT_ID,
+          storageBucket: process.env.NUXT_ENV_FIREBASE_STORAGE_BUCKET,
+          messagingSenderId: process.env.NUXT_ENV_FIREBASE_MESSAGING_SENDER_ID,
+          appId: process.env.NUXT_ENV_FIREBASE_APP_ID
+        },
+        onFirebaseHosting: true,
+        services: {
+          auth: true,
+          firestore: true,
+          functions: true,
+          storage: true,
+          realtimeDb: true
+        }
+      }
+    ],
     "nuxt-leaflet",
     "@nuxtjs/sentry"
   ],
@@ -176,50 +176,50 @@ module.exports = {
       start_url: "/",
       display: "standalone",
       background_color: "#0b2123",
-      // icons: [
-      //   {
-      //     src: `${baseUrl}/img/pwa/icons/pwa_icon_64.png`,
-      //     sizes: "64x64",
-      //     type: "image/png",
-      //     purpose: "maskable any"
-      //   },
-      //   {
-      //     src: `${baseUrl}/img/pwa/icons/pwa_icon_120.png`,
-      //     sizes: "120x120",
-      //     type: "image/png",
-      //     purpose: "maskable any"
-      //   },
-      //   {
-      //     src: `${baseUrl}/img/pwa/icons/pwa_icon_144.png`,
-      //     sizes: "144x144",
-      //     type: "image/png",
-      //     purpose: "maskable any"
-      //   },
-      //   {
-      //     src: `${baseUrl}/img/pwa/icons/pwa_icon_152.png`,
-      //     sizes: "152x152",
-      //     type: "image/png",
-      //     purpose: "maskable any"
-      //   },
-      //   {
-      //     src: `${baseUrl}/img/pwa/icons/pwa_icon_192.png`,
-      //     sizes: "192x192",
-      //     type: "image/png",
-      //     purpose: "maskable any"
-      //   },
-      //   {
-      //     src: `${baseUrl}/img/pwa/icons/pwa_icon_384.png`,
-      //     sizes: "384x384",
-      //     type: "image/png",
-      //     purpose: "maskable any"
-      //   },
-      //   {
-      //     src: `${baseUrl}/img/pwa/icons/pwa_icon_512.png`,
-      //     sizes: "512x512",
-      //     type: "image/png",
-      //     purpose: "maskable any"
-      //   }
-      // ],
+      icons: [
+        {
+          src: `${baseUrl}/img/pwa/icons/pwa_icon_64.png`,
+          sizes: "64x64",
+          type: "image/png",
+          purpose: "maskable any"
+        },
+        {
+          src: `${baseUrl}/img/pwa/icons/pwa_icon_120.png`,
+          sizes: "120x120",
+          type: "image/png",
+          purpose: "maskable any"
+        },
+        {
+          src: `${baseUrl}/img/pwa/icons/pwa_icon_144.png`,
+          sizes: "144x144",
+          type: "image/png",
+          purpose: "maskable any"
+        },
+        {
+          src: `${baseUrl}/img/pwa/icons/pwa_icon_152.png`,
+          sizes: "152x152",
+          type: "image/png",
+          purpose: "maskable any"
+        },
+        {
+          src: `${baseUrl}/img/pwa/icons/pwa_icon_192.png`,
+          sizes: "192x192",
+          type: "image/png",
+          purpose: "maskable any"
+        },
+        {
+          src: `${baseUrl}/img/pwa/icons/pwa_icon_384.png`,
+          sizes: "384x384",
+          type: "image/png",
+          purpose: "maskable any"
+        },
+        {
+          src: `${baseUrl}/img/pwa/icons/pwa_icon_512.png`,
+          sizes: "512x512",
+          type: "image/png",
+          purpose: "maskable any"
+        }
+      ],
       start_url: "/",
       display: "standalone",
       background_color: "#0b2123",
